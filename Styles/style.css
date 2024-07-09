@@ -9,6 +9,9 @@
 .color-1{
     color: rgba(13, 19, 33, 1) ;
 }
+.opacity-color{
+    color: rgba(13, 19, 33, 0.7)
+}
 
 /*header start from here*/
 .header-bg{
@@ -38,4 +41,55 @@
     border: none;
     background-color:rgba(13, 19, 33, 1) ;
     margin-bottom: 25px;
+}
+/*main styles*/
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+/*why-web-development*/
+.why-web-title{
+    text-align: center;
+    margin-bottom: 60px;
+}
+.why-web-heading{
+    font-size: 32px;
+    font-weight: 800;
+}
+.plan-heading{
+    font-size: 24px;
+    font-weight: 700;
+    color: rgba(13, 19, 33, 0.7);
+}
+
+.plan1, .plan3{
+    display: flex;
+    gap: 99px;
+    justify-content: space-between;
+    margin-bottom: 80px;
+}
+.plan2{
+    display: flex;
+    gap: 32px;
+    margin-bottom: 80px;
+}
+.plan1-text, .plan2-text, .plan3-text{
+    text-align: left;
+    max-width: 477px;
+} 
+.plan-description1, .plan-description3{
+    padding-right: 50px;
+}
+.why-web-dev{
+    padding: 80px 97px;
+    margin-top: 77px;
+}
+.future-plan-btn{
+    font-size: 20px;
+    font-weight: 600;
+    padding: 12px 20px;
+    color: rgba(13, 19, 33, 0.7);
+    background-color: white;
+    border-color:rgba(13, 19, 33, 0.7) ;
+    
 }
