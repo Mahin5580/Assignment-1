@@ -13,6 +13,26 @@
 .opacity-color{
     color: rgba(13, 19, 33, 0.7)
 }
+/*nav section*/
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+nav .btn{
+    color: rgba(13, 19, 33, 0.8);
+    border: 1px solid rgba(13, 19, 33, 1);
+    background-color: white;
+    border-radius: 8px;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 17px 24px;
+    margin: 36px 150px 36px 0px;
+}
+nav h1{
+    margin: 50px 0px 48px 150px;
+    font-size: 28px;
+    font-weight: 800;
+}
 
 /*header start from here*/
 .header-bg{
@@ -21,7 +41,6 @@
     text-align: center;
 }
 .header-container{
-    border: 2px coral;
     padding: 26px 221px 45px 221px;
 }
 .header-title{
